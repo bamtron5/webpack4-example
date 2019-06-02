@@ -10,7 +10,7 @@
 1. `yarn install`
 2. `yarn start`
 3. after build goto `http://localhost:8080`
-4. your build is watched, changes will refresh your pages or you could use HML.
+4. your build is watched, changes will refresh your pages or you could use HML (Hot Module Reloading).
 
 ### other concerns:
 1. routing
@@ -18,6 +18,6 @@
 3. potentially a component library
 4. a linter
 5. a testing suite
-6. vendor splitting and opimization for webpack builds. (larger your app, the longer the rebuild time can)
+6. vendor splitting and opimization for webpack builds. (larger your app, the longer the rebuild time can take)
 7. management of state
 8. management of http calls and working with asynchronous concerns
